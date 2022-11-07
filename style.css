@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+* {
+    font-family: "PT Sans";
+}
+html{
+    transition: all 0.5s ease;
+    height: 100%;
+   
+}
+
+body {
+    height: 100%;
+    background: rgb(65, 68, 68);
+background: linear-gradient(0deg, rgba(179,185,185,1) 0%, rgba(45,137,164,1) 100%);
+    background-repeat: no-repeat
+}
+
+h1 {
+    padding-top: 2rem;
+    background-color: transparent;
+    color: #f4f7e8
+}
+
+.card {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: -1px 2px 8px 0px rgb(71, 71, 71);
+}
+
+strong {
+    color: #f4fda1
+}
+
