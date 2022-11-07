@@ -14,7 +14,7 @@ let weather = {
         /* Add information to HTML */
         document.querySelector(".city").innerText = "Weather in " + name;
         document.querySelector(".temp").innerText = temp + " °C";
-        document.querySelector(".icon").src="http://openweathermap.org/img/wn/" + icon + "@2x.png";
+        document.querySelector(".icon").src="https://openweathermap.org/img/wn/" + icon + "@2x.png";
         document.querySelector(".description").innerText = description;
         document.querySelector(".humidity").innerText = "Humidity: " + humidity;
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + " km/h";
